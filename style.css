@@ -1,3 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --bg : #0e0e0e;
+    --text: #9ba3ab;
+    --hover: #e5e5e5;
+    --hi:#369af1;
+}
+
 body{
-    background-color: #0e0e0e;
+    background-color: var(--bg);
+    color: var(--text);
+    padding: 0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+
+}
+#nav-title img{
+    height: 25px;
+    width: 25px;
+    padding: 12px;
+}
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+nav p{
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#nav-right{
+    margin-left: 30px;
+    padding: 20px;
+}
+#nav-right input{
+    background: transparent;
+    border: 2px solid var(--text);
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+#nav-right button{
+    padding: 6px 15px;
+    background-color: var(--hi);
+    border-style: none;
+    border-radius: 5px;
+    color: var(--hover);
+    font-weight: 600;
+    font-size: 15px;
+
+}
+#nav-right input::placeholder{
+
+    color: var(--text);
+}
+.flex-left{
+    float: left;
+}
+.flex-right{
+    float: right;
+}
+
+.flex{
+    display: flex;
+}
+#links{
+    margin: 0%;
+    font-weight: 600;
+}
+#links li:hover{
+    color: var(--hover) ;
+    cursor: pointer;
+}
+#links li{
+    padding: 20px 30px;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero img{
+    padding: 30px;
+    height: 560px;
+    width: 850px;
+}
+#left-text{
+
 }
